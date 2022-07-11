@@ -1,0 +1,130 @@
+/* .FormContainer{
+  width:80%;
+  margin: 0 auto;
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  height: 100%;
+} */
+.Nextbutton{
+  background-color: rgb(61, 148, 7);
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 6px 0px;
+}
+
+.Nextbutton:hover{
+  background-color: rgb(46, 114, 4);
+  box-shadow: 0px 0px 3px 0px #e7e5e5;
+}
+.Addbutton{
+  background-color: rgb(76, 92, 66);
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 6px 0px;
+}
+.Addbutton:hover {
+  background-color: rgb(59, 70, 52);
+  box-shadow: 0px 0px 3px 0px #e7e5e5;
+}
+
+.submitBtn{
+  background-color: rgb(4, 86, 137);
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 6px 0px;
+}
+.submitBtn:hover {
+  background-color: rgb(4, 69, 109);
+  box-shadow: 0px 0px 3px 0px #e7e5e5;
+}
+/* .logincontainer{
+  width: 50%;
+  margin: 0 auto
+  
+}  */
+
+input[type=text], input[type=email], input[type=number], input[type=password], textarea {
+background-color: transparent;
+border-radius: 2px;
+width: 200px;
+height: 10px;
+padding: 5px;
+border: none;
+outline: none;
+border: solid 1px #d0cece;
+box-shadow: 0px 0px 3px 0px #e7e5e5;
+margin: 8px 0px;
+}
+.fontsize{
+  margin-top: 5rem;
+  font-size: 6rem;
+  width: 50%;
+  margin-left: 13rem;
+}
+textarea{
+  height: 55px !important;
+}
+
+.marginCenter {
+  margin: 0 auto;
+}
+
+.heightContainer{
+  height: 100vh;
+}
+.container{
+  width: 90%;
+}
+.formBox {
+  width: 200px;
+  padding: 20px;
+  border: solid 1px #d0cece;
+box-shadow: 0px 0px 3px 0px #e7e5e5;
+border-radius: 3px;
+display: grid;
+grid-template-columns: 1fr;
+justify-content: center;
+align-items: center;
+}
+
+.tableBox{
+  width: 90%;
+  padding: 20px;
+  border: solid 1px #d0cece;
+box-shadow: 0px 0px 3px 0px #e7e5e5;
+border-radius: 3px;
+}
+
+table {
+  width: 100%;
+  border: none;
+  
+}
+
+tr th {
+  border-bottom: solid 2px #515151;
+  padding: 10px !important;
+}
+
+tr td {
+  border-bottom: solid 1px #d0cece;
+  padding: 10px !important;
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background-color: #f4f2f2;
+}
+
+
